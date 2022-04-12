@@ -63,5 +63,5 @@ MiscChannel:Button("Infinite Coins (Visual Only)", function()
 end)
 
 MiscChannel:Button("Infinite Jump (May Get you Kicked)", function()
-    
+    loadstring(game:HttpGet("https://github.com/nElectro/x-crazy/blob/main/Scripts/inf-jump.lua"))()
 end)

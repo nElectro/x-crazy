@@ -101,6 +101,6 @@ ExtrasChannel:Button("Fly (X to toogle)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/nElectro/x-crazy/main/Scripts/fly.lua"))()
 end)
 
-ExtrasChannel:Button("Click TP Tool", function()
+ExtrasChannel:Button("Click TP Tool (May get you kicked)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/nElectro/x-crazy/main/Scripts/click-tp.lua"))()
 end)

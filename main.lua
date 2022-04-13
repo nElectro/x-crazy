@@ -92,13 +92,13 @@ game:GetService("ReplicatedStorage").BuyImmunity:InvokeServer(unpack(args))
 end)
 
 
-ExtrasChannel:Slider("FOV", 70, 120, function(fov)
+ExtrasChannel:Slider("FOV", 70, 120, 30, function(fov)
     game:GetService('Workspace').Camera.FieldOfView = fov
     end)
 
 ExtrasChannel:Button("Fly (X to toogle)", function()
     DiscordLib:Notification("X-Crazy", "Now Flying (Press X to to toggle", "Ok")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/nElectro/x-crazy/main/Scripts/fly.lua."))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/nElectro/x-crazy/main/Scripts/fly.lua"))()
 end)
 
 ExtrasChannel:Button("Click TP Tool", function()

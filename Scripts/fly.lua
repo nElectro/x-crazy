@@ -71,7 +71,7 @@ function Fly()
 end
 mouse.KeyDown:connect(
     function(key)
-        if key:lower() == "e" then
+        if key:lower() == "x" then
             if flying then
                 flying = false
             else
